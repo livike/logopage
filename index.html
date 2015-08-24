@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>vsakdanjedarilo.si</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+<body>
+
+<div id="wrap">
+  <header>
+    <div class="top-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo indent-max" href="/"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Kako deluje?</a></li>
+              <li><a href="#">Vsa darila</a></li>
+              <li><a href="#">Vsi partnerji</a></li>
+              <li><a href="#">Objavi darilo</a></li>
+              <li><a class="nav-button isci" href="#">Išči darila <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+              <li><a class="nav-button prijava" href="#"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Prijava</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+
+
+	<div class="container">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+        <div class="prijava-wrapper">
+          <div class="prijava-pentlja">
+          </div>
+    			<div class="prijava-mid">
+    				<div class="prijava-mid-body">
+    					<div class="row">
+    						<div class="col-md-12">
+    							<div class="bottom-40">
+    								<h1>Prijava</h1>
+    							</div>
+    						</div>
+    					</div>
+
+    					<form data-validate="true" novalidate="novalidate" class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CVasN/1VpEJgtPSEzmp7IRKuPaH7wBRt7YBP1BemspOwZ9sLcEvKxzNYkX1Apnm7WosyUj0Gqx5V3JrxQe+FOA==" />
+    						<div class="row topm-20">
+    							<div class="col-md-12 ">
+    								<div class="form-group">
+    								  <label for="user_email">Elektronski naslov</label>
+    								  <input class="form-control" type="email" value="" placeholder="Tukaj vpišite vaš elektronski naslov"id="user_email" />
+    								</div>
+    							</div>
+    						</div>
+
+    					  <div class="row topm-20">
+    					  	<div class="col-md-12">
+    					  		<div class="form-group">
+    							  	<label for="user_password">Vaše geslo</label>
+    							    <input autocomplete="off" class="form-control" type="password" placeholder="Tukaj vpišite vaše geslo" id="user_password" />
+    							  </div>
+    							</div>
+    						</div>
+
+    					  <div class="row topm-20">
+                  <div class="col-md-4">
+                  <div class="form-group ">
+                    <a href="#"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Pozabljeno geslo?</a><br />
+                    <a href="#">Pogoji poslovanja</a>
+                  </div>
+                </div>
+                  <div class="col-md-4">
+                  <a class="btn btn-secondary btn-block btn-sm" href="#">Registracija</a>
+                </div>
+    					  	<div class="col-md-4">
+    					  		<div class="form-group">
+    					  			<input type="submit" name="commit" value="Prijava" class="btn btn-block btn-primary" />
+    					  		</div>
+    					  	</div>
+    					  </div>
+            </form>
+    				<div class="row topm-20">
+    						
+    							  <div class="col-md-6">
+    							    <a class="btn btn-block btnfb" href="#"><i class="fa fa-facebook"></i>   Prijavite se s Facebook-om</a><br />
+    							  </div>
+                    <div class="col-md-6">
+                      <a class="btn btn-block btngoogle" href="#"> <i class="fa fa-google-plus"></i>   Prijavite se z Google+</a><br />
+                    </div>
+    					</div>
+
+    				</div>
+    			</div>
+      </div>
+		</div>
+	</div>
+  <div class="row">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"> Nazaj</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-2">
+            <p class="footr"><b>KATEGORIJE</b></p>
+          </div>
+        <div class="col-md-8">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Moda</a></li>
+            <li><a href="/#">Turizem</a></li>
+            <li><a href="#">Kultura</a></li>
+            <li><a href="#">Tehnologija</a></li>
+            <li><a href="#">Prehrana</a></li>
+            <li><a href="#">Prenočišče</a></li>
+            <li><a href="#">Zdravlje</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="gumb">
+            <li><a href="#">Prikaži vse</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
